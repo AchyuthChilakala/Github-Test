@@ -1,9 +1,7 @@
-import sys
-sys.executable
-# import requests
 
-#r = requests.get('http://www.google.com')
+import requests
+
+r = requests.get('http://www.google.com')
 
 
-# print(r.status_code)
-print("hello")
+print(r.status_code)
